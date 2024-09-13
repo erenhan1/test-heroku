@@ -1,0 +1,1 @@
+web: gunicorn dashtest:app --log-file -
