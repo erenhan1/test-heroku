@@ -1,1 +1,1 @@
-web: gunicorn dashtest:app --log-file -
+web: gunicorn dashtest:dashtest.py
