@@ -1,1 +1,1 @@
-web: gunicorn dashtest:server
+web: gunicorn --bind 0.0.0.0:$PORT dashtest:server
