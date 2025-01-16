@@ -1,1 +1,1 @@
-web: gunicorn dashtest:dashtest.py
+web: gunicorn dashtest:server
